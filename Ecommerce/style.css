@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    color: black;
+    list-style-type: none;
+    
+}
+.navbar {
+    padding: 17px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    padding: 0 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:coral
+}
+.navbar-toggler{
+    border: none;
+    font-size: larger;
+   
+}
+.carousel{
+    margin-top:70px;
+}
+img{
+    height: 100%;
+}
+.container .new img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+   
+}
+
+.container .new .details{
+   
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    right: 0%;
+    margin: 20px;
+
+  
+    
+    
+
+
+
+}
+.container .new .details  .shop-link{
+    color: black;
+    font-size: x-large;
+    
+}
+
+
+
+
+
+.container .new:nth-child(1) .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+ 
+.container .new:nth-child(2) .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+.container .new:nth-child(3) .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.container-fluid
+.product img{
+    height: 400px;
+    width: 400px;
+    margin: 30px;
+  
+    
+
+}
+
+.container-fluid
+.product .buy-btn{
+    width:100px;
+    height: 50px;
+  border: none;
+  background-color: black;
+  color: white;
+ 
+}
+
+
+.container-fluid
+.product i{
+    color: orange;
+}
+
+
+.container-fluid
+.product h1{
+    font-size: medium
+}
+
+.banner-bg{
+    margin-top: 100px;
+    background: url("Images/banner/bg1.webp");
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position:  top 100px center;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+
+}
+
+footer .fotter img{
+    width:50px;
+}
+
+footer .fotter i{
+    font-size: xx-large;
+}
+
+footer{
+    background-color:  	rgb(29, 28, 28);
+}
+
+footer .fotter h1, p{
+    color: white;
+}
+
+footer .fotter li a{
+    color: white;
+}
